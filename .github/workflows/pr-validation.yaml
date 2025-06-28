@@ -23,7 +23,7 @@ jobs:
         run: npx htmlhint "src/**/*.html"
 
       - name: Lint CSS files with Stylelint
-        run: npx stylelint "src/**/*.css"
+        run: npx stylelint "styles/**/*.css"
 
   build:
     runs-on: ubuntu-latest
